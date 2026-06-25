@@ -1,0 +1,88 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[top=0.4in,bottom=0.4in,left=0.48in,right=0.48in]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+
+\pagestyle{empty}
+\linespread{1.1}
+\setlist[itemize]{topsep=0.8pt,itemsep=0.6pt,leftmargin=1.5em}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{6pt}
+
+\begin{document}
+
+% HEADER
+\begin{center}
+{\Huge \textbf{RITHWIK RACHARLA}} \\[6pt]
+\textcolor{blue}{+91 7013560134} \quad $\diamond$ \quad
+\textcolor{blue}{\href{mailto:rithwikracharla7@gmail.com}{rithwikracharla7@gmail.com}} \quad $\diamond$ \quad
+\textcolor{blue}{\href{https://www.linkedin.com/in/rithwik-racharla-488064211}{\textbf{LinkedIn}}} \quad $\diamond$ \quad
+\textcolor{blue}{\href{https://github.com/Rithwik007}{\textbf{GitHub}}}
+\end{center}
+
+% OBJECTIVE
+\section*{OBJECTIVE}
+\noindent Seeking a Software Engineering internship to build production systems, solve complex problems at scale, and contribute meaningful impact through development expertise.
+
+% EDUCATION
+\section*{EDUCATION}
+\noindent \textbf{Bachelor of Technology (CSE)} - VNR VJIET \hfill Expected 2028 \\
+\noindent CGPA: \textbf{8.93/10}
+
+% SKILLS
+\section*{SKILLS}
+\noindent \textbf{Programming Languages \quad \quad \ \ \ } Java, Python, C \\
+\noindent \textbf{Core Concepts \quad \quad \quad \quad \ \quad \quad \quad} Data Structures \& Algorithms, OOP, OS, JWT Authentication \\
+\noindent \textbf{Full-Stack Development \quad \quad \quad \ } React.js, Node.js, Express.js, HTML, CSS, JavaScript, REST API Design \\
+\noindent \textbf{Database \quad \quad \quad \quad \quad \quad \quad \quad \quad \ \ } MongoDB, MySQL \\
+\noindent \textbf{Tools \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \ \quad } Git, GitHub, VS Code, Vercel, n8n
+
+% PROJECTS
+\section*{PROJECTS}
+
+\noindent\textbf{Habit Tracker} \ \
+\textcolor{blue}{\href{https://github.com/Rithwik007/habit-tracker-web2}{GitHub}} -- \textcolor{blue}{\href{https://habit-tracker-web2.vercel.app/}{Live}} \hfill \textit{React.js, Node.js, Express.js, MongoDB Atlas, Recharts, Vercel}
+\begin{itemize}
+\item Engineered a full-stack Habit Tracker with flexible recurrence schedules (daily, weekly, custom) and automatic streak calculation across user sessions.
+\item Designed MongoDB Atlas schema storing per-user habit documents with timestamps; Express REST API computes streaks and partial completion states at query time.
+\item Built React frontend rendering a monthly grid and Recharts analytics dashboard, updating instantly after each check-in without full page reloads.
+\end{itemize}
+
+\noindent\textbf{Library Management System} \ \
+\textcolor{blue}{\href{https://github.com/Rithwik007/Library-Management}{GitHub}} -- \textcolor{blue}{\href{https://library-management-frontend-ten-tan.vercel.app}{Live}} \hfill \textit{Node.js, Express.js, MongoDB, JWT, REST API}
+\begin{itemize}
+\item Architected a role-based web application (Admin, Faculty, Student) with JWT authentication and middleware-enforced authorization protecting all REST API endpoints.
+\item Developed transaction engine tracking book borrowing and returns with automated fine calculation for overdue records, persisting full history in MongoDB.
+\item Integrated Web Push API with Service Workers and VAPID keys for real-time browser notifications on due dates and Knowledge-sharing Feature, eliminating manual follow-up.
+\end{itemize}
+
+\noindent\textbf{RR Restaurant WhatsApp AI Assistant} \ \
+\textcolor{blue}{\href{https://github.com/Rithwik007/n8n_automation_usecase}{GitHub}} \hfill \textit{n8n, Gemini API, WhatsApp Cloud API, Google Sheets}
+\begin{itemize}
+\item Built an n8n automation workflow that receives inbound WhatsApp messages via webhook and routes them through a Gemini API node with a system prompt encoding the restaurant menu and ordering logic.
+\item Implemented stateful conversation memory by appending each user message and model response to a session object, passing full history as context on every Gemini API call for coherent multi-turn dialogue.
+\item Connected confirmed orders to a Google Sheets write node for real-time order logging and inventory tracking, delivering a serverless end-to-end ordering pipeline with zero dedicated backend infrastructure.
+\end{itemize}
+
+% COMPETITIVE PROGRAMMING
+\section*{COMPETITIVE PROGRAMMING}
+\begin{itemize}
+\item Solved 300+ DSA problems across LeetCode (100+), Codeforces, and SmartInterviews, focusing on arrays, trees, graphs, and dynamic programming.
+\item Active participant in LeetCode weekly and Codeforces rated contests.
+\end{itemize}
+
+% CERTIFICATIONS
+\section*{CERTIFICATIONS}
+\begin{itemize}
+\item IBM AI Fundamentals -- \textit{IBM SkillsBuild}
+\item Certified System Administrator (CSA) -- \textit{ServiceNow}
+\item MERN Stack Development -- \textit{Industrial Training}
+\item Data Structures \& Algorithms -- \textit{SmartInterviews (ongoing)}
+\end{itemize}
+
+\end{document}
