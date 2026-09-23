@@ -1,0 +1,116 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[top=0.4in,bottom=0.4in,left=0.48in,right=0.48in]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tabularx}
+
+\pagestyle{empty}
+\linespread{1.04}
+\setlist[itemize]{topsep=0.8pt,itemsep=0.6pt,leftmargin=1.2em}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{7pt}{6pt}
+
+\begin{document}
+
+
+% HEADER
+\begin{center}
+
+{\Huge \textbf{RITHWIK RACHARLA}} \\[6pt]
+
+\textcolor{blue}{+91 7013560134} \quad $\diamond$ \quad
+\textcolor{blue}{\href{mailto:rithwikracharla@gmail.com}{rithwikracharla@gmail.com}} \quad $\diamond$ \quad
+\textcolor{blue}{\href{https://www.linkedin.com/in/rithwik-racharla-488064211}{\textbf{LinkedIn}}} \quad $\diamond$ \quad
+\textcolor{blue}{\href{https://github.com/Rithwik007}{\textbf{GitHub}}}
+
+\end{center}
+
+% OBJECTIVE
+\section*{OBJECTIVE}
+
+\noindent Seeking a Software Engineering internship to apply strong foundations in data structures, algorithms, backend development, and full-stack engineering to build reliable software systems.
+
+% EDUCATION
+\section*{EDUCATION}
+
+\noindent \textbf{B.Tech in Computer Science and Engineering} -- VNR VJIET \hfill Expected 2028
+
+\noindent CGPA: \textbf{8.93/10}
+
+% SKILLS
+\section*{SKILLS}
+
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}l@{\hspace{30pt}}X@{}}
+\textbf{Programming Languages} & Java, Python, C++, JavaScript \\
+\textbf{Core Concepts} & Data Structures \& Algorithms, OOP, OS, DBMS, Computer Networks \\
+\textbf{Development} & React, Node.js, Express.js, REST APIs, JWT, MongoDB, MySQL, SQL \\
+\textbf{Tools \& Deployment} & Git, GitHub, VS Code, Vercel, Render, Sentry, PostHog
+ \\
+\end{tabularx}
+
+
+
+% PROJECTS
+\section*{PROJECTS}
+
+\noindent\textbf{Distill – AI News Digest}  \ \
+\textcolor{blue}{\href{https://github.com/Rithwik007/AI_NEWS_DESK}{GitHub}} --  \textcolor{blue}{\href{https://ai-news-desk-ecru.vercel.app/}{Live}} \hfill \textit{Node.js, transformers.js, Groq, Telegram/WhatsApp APIs, Vercel}
+
+
+\begin{itemize}
+\item Built personalized daily AI-news digest delivered on Telegram (LIVE) and WhatsApp (in testing): RSS fetch, interest-based filtering, Groq LLM summaries with "why read this" notes.
+\item Designed dedup pipeline around embedding-similarity clustering (MiniLM) rather than exact-match comparison, handling outlets phrasing the same event differently; confidence-tier logic separates single-source claims from multi-source-verified stories.
+\item Added multi-user support via Clerk Google OAuth and one-time-code Telegram linking. Deployed on Vercel with Sentry and PostHog monitoring.
+
+\end{itemize}
+
+
+
+\noindent\textbf{Habit Tracker} \ \
+\textcolor{blue}{\href{https://github.com/Rithwik007/habit-tracker-web2}{GitHub}}  --  \textcolor{blue}{\href{https://habit-tracker-web2.vercel.app/}{Live}}  \hfill \textit{React, Express, MongoDB, Firebase Auth, Recharts, Vercel}
+
+\begin{itemize}
+\item Built installable PWA habit tracker with schedules (weekdays, N/week, every N days) and Recharts analytics. 
+\item Designed streak-scoring logic to treat intentional skips separately from missed days -- skips bridge the streak and are excluded from scoring math, avoiding the common bug where any gap resets progress to zero.
+\item Added Firebase Auth, VAPID push reminders, cron-based profile switching, and offline support.
+
+\end{itemize}
+
+\noindent\textbf{Library Management System} \ \ 
+\textcolor{blue}{\href{https://github.com/Rithwik007/Library-Management}{GitHub}} --  \textcolor{blue}{\href{https://library-management-frontend-ten-tan.vercel.app}{Live}} \hfill \textit{JavaScript, Node.js, Express.js, MongoDB, REST API}
+
+\begin{itemize}
+\item Built role-based (Admin/Faculty/Student) library system managing a 956-book catalog with live search and borrow/return logs.
+\item Secured endpoints with JWT middleware. Automated overdue fines and Web Push due-date alerts.
+\item Designed per-copy (not per-title) availability tracking with admin audit trail and student--faculty knowledge request module.
+
+
+\end{itemize}
+
+
+
+% COMPETITIVE PROGRAMMING
+\section*{COMPETITIVE PROGRAMMING}
+
+\begin{itemize}
+\item Solved 500+ DSA problems across \textcolor{blue}{\href{https://leetcode.com/u/rithwiiik007/}{LeetCode}} (200+), \textcolor{blue}{\href{https://codeforces.com/profile/rithwikrr07}{Codeforces}}, \textcolor{blue}{\href{https://www.codechef.com/users/rithwik_07}{CodeChef}}, \textcolor{blue}{\href{https://hive.smartinterviews.in/profile/rithwik2k07}{SmartInterviews}} (200+).
+\item Contest maximum ratings: LeetCode \textbf{1672}, CodeChef \textbf{1414 (2$\star$)}.
+
+\end{itemize}
+
+% TRAINING
+\section*{CERTIFICATIONS \& TRAINING}
+\begin{itemize}
+\item \textcolor{blue}{\href{https://smartinterviews.in/certificate/1406d39f}{HIVE}} -- SmartInterviews, Data Structures \& Algorithms.
+
+
+\item \textcolor{blue}{\href{https://drive.google.com/file/d/1VRXnHmmk4D_ZxVTZcymfX-geNMOgyUT2/view?usp=sharing}{CSI BuildWithRAG Workshop}} -- Built a RAG application on sports data.
+\item \textbf{Industrial Training} -- MERN Stack (12 months), VNR VJIET; Agentic AI (2 months), VNR VJIET.
+\end{itemize}
+\end{document}  
